@@ -10,23 +10,23 @@ Both implementations satisfy the same seven functional requirements and meet spe
 
 ```
 B31DG_Assignment2/
-âââ B31DG_Assignment2.ino      # Main Arduino sketch file
-âââ config.h                   # Configuration file to switch between implementations
-âââ definitions.h              # Project-wide definitions and constants
-âââ functions.cpp              # Implementation of all task functions
-âââ functions.h                # Function declarations
-âââ README.md                  # This file
-âââ sketch.json                # Arduino IDE project file
-âââ variables.cpp              # Global variable definitions
-âââ variables.h                # Global variable declarations
+├── B31DG_Assignment2.ino      # Main Arduino sketch file
+├── config.h                   # Configuration file to switch between implementations
+├── definitions.h              # Project-wide definitions and constants
+├── functions.cpp              # Implementation of all task functions
+├── functions.h                # Function declarations
+├── README.md                  # This file
+├── sketch.json                # Arduino IDE project file
+├── variables.cpp              # Global variable definitions
+└── variables.h                # Global variable declarations
 ```
 
 ## Requirements
 
 The system implements the following requirements:
 
-1. Output a digital signal: HIGH for 250Î¼s, LOW for 50Î¼s, HIGH for 300Î¼s, then LOW
-2. Output a second digital signal: HIGH for 100Î¼s, LOW for 50Î¼s, HIGH for 200Î¼s, then LOW
+1. Output a digital signal: HIGH for 250μs, LOW for 50μs, HIGH for 300μs, then LOW
+2. Output a second digital signal: HIGH for 100μs, LOW for 50μs, HIGH for 200μs, then LOW
 3. Measure the frequency of a square wave signal (666Hz-1000Hz)
 4. Measure the frequency of a second square wave signal (833Hz-1500Hz)
 5. Call the monitor's method `doWork()` at a rate of 20Hz
