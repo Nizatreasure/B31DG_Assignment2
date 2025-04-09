@@ -29,7 +29,7 @@ The system implements the following requirements:
 2. Output a second digital signal: HIGH for 100μs, LOW for 50μs, HIGH for 200μs, then LOW
 3. Measure the frequency of a square wave signal (666Hz-1000Hz)
 4. Measure the frequency of a second square wave signal (833Hz-1500Hz)
-5. Call the monitor's method `doWork()` at a rate of 20Hz
+5. Call the monitor's method `doWork()` at a rate of 200Hz
 6. Use an LED to indicate when the sum of the two frequencies is greater than 1500Hz
 7. Monitor a pushbutton to toggle an LED state and call `doWork()` when pressed
 
